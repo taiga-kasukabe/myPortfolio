@@ -6,13 +6,13 @@
 #sidenavi{
     float: left;
     width: 198px;
-    margin: 10px 10px 10px 0px;
+    margin 0 auto;
 }
 
 #contents{
     float: left;
     width: 748px;
-    margin: 10px 0px 10px 0px;
+    margin 0 auto;
 }
 
 footer{
@@ -32,4 +32,25 @@ a:hover {
     color: skyblue;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wrapper > div {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.contents {
+  width: 800px;
+  background: #f5f5f5;
+}
+.sidenavi {
+  width: 300px;
+  background: #ddd;
 }
